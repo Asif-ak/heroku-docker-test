@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  heroku-docker-test:
+    ports:
+      - "80"
+networks:
+  default:
+    external:
+      name: nat
